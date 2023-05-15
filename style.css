@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Arial"),
+         url("./fonts/Arial.woff2") format("woff2"),
+         url("./fonts/Arial.woff") format("woff");
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5rem;
+    background-color: #FFF;
+    color: #2B2A28;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.table {
+    border-collapse:collapse;
+}
+
+.button-run {
+    padding: .5rem 1rem;
+    background-color: rgb(207, 252, 252);
+    border-radius: 1rem;
+    font-size: .5rem;
+    border: none;
+}
+
+thead th {
+    background-color: rgb(138 220 220);
+}
+
+th {
+    padding: 1rem 0.7rem;
+    font-weight: 400;
+}
+
+td {
+    padding: 1rem;
+    border-bottom: 1px solid #d5d5d5;
+}
